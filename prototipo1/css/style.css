@@ -14,29 +14,34 @@ body{
     background-color: #F6E1C3;
 }header{
     background-color: #E9A178;
-    padding: 10%;
+    padding: 100px;
 }.header__imagem{
-    width: 100%;
-    height: 450px;
-    
+    width: auto;
+    height: auto;
+    max-width: 600px;
+    margin-left: 25%;
 }
 main{
     text-align: center;
 }
 h1, h2, h4{
-    padding: 20px;
+    padding: 10px;
 }
 
 figure{
-    background-color: whitesmoke;
+    background-color: #E9A178;
     text-align: center;
-    border: 1px solid lightgrey;
+    border: 1px solid rgb(0, 0, 0);
     padding: 15px;
-    margin: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
 }figure img{
     width: 100%;
 }.main__imagem{
-    height: 700px;
+    max-width: 100rem;
+    max-height: 70rem;
+    width: auto;
+    height: auto;
 }
 p{ 
  text-align: left;
@@ -44,4 +49,8 @@ p{
 }
 footer{
     background-color: #A84448;
+    text-align: center;
+}.footer__titulo, .footer__texto{
+    text-align: center;
+    padding: 10px;
 }
