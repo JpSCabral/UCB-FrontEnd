@@ -5,112 +5,153 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto 2</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Coffee House</title>
 </head>
 
 <body>
-    <!--inicio do header-->
     <header>
-        <nav>
-            <ul>
-                <a href="#container0">
-                    <li>Home</li>
-                </a>
-                <a href="#container1">
-                    <li>Sobre</li>
-                </a>
-                <a href="#container2">
-                    <li>Projetos</li>
-                </a>
-                <a href="#container3">
-                    <li>Contato</li>
-                </a>
-            </ul>
-        </nav>
-    </header>
-    <!--inicio da main-->
-    <main class="main">
-        <div id="container0">
-            <div class="main__div--textos">
-                <h1 class="main__titulo">Sejam Bem-Vindo (a)</h1>
-                <h2>Este é um pequeno projeto desenvolvido por mim mesmo, como parte do meu aprendizado em HTML e CSS
-                    (Talvez um JavaScriptzin rsrs)</h2>
-            </div>
-        </div>
-        <!-- <hr> -->
-        <div id="container1">
-            <div>
-                <h3>Sobre</h3>
-            </div>
-            <div class="container1_1">
-                <figure>
-                    <img class="ct1__img" src="imagens/pexels-mati-mango-5952647.jpg" alt="">
-                </figure>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa expedita inventore consequuntur
-                    explicabo itaque impedit iusto omnis in optio laboriosam eius eligendi totam cumque amet odit vero
-                    facere, odio maxime?, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem aliquam cum
-                    ipsa repellendus accusamus necessitatibus recusandae magni saepe, suscipit quam laborum? Ipsum sed
-                    soluta et quibusdam obcaecati reiciendis modi repellendus., Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Voluptatum iusto vel eligendi assumenda quibusdam. Beatae, doloremque animi,
-                    voluptatem eius aperiam dolore alias cumque a vero repellendus possimus. Fugiat, minima quis!</p>
-            </div>
-        </div>
-        <!-- <hr> -->
-        <div id="container2">
-            <div>
-                <h3>Projetos</h3>
-            </div>
-            <section class="container2_2">
-                <div>
-                    <figure>
-                        <img src="imagens/pexels-cottonbro-studio-8720616.jpg" alt="">
-                        <figcaption>Projeto I</figcaption>
-                    </figure>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eos dolorum exercitationem,
-                        doloremque optio incidunt numquam impedit harum, eius eveniet quo beatae amet quaerat omnis a
-                        quisquam labore doloribus repellat? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Ipsam, dolore, perspiciatis dolorum porro aliquam ea pariatur quod quo nihil aperiam enim
-                        libero, deserunt ducimus exercitationem? Repellat nobis ex perferendis enim!</p>
-                </div>
-                <div>
-                    <figure>
-                        <img src="imagens/pexels-mikhail-nilov-8107975.jpg" alt="">
-                        <figcaption>Projeto II</figcaption>
-                    </figure>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis quasi dolor vero. Vero
-                        reprehenderit distinctio voluptas recusandae odit ut, quisquam tempore nobis commodi ipsam dolor
-                        ullam? At praesentium architecto tempora.</p>
-                </div>
-                <div>
-                    <figure>
-                        <img src="imagens/pexels-mikhail-nilov-8108094.jpg" alt="">
-                        <figcaption>Projeto III</figcaption>
-                    </figure>
-                    <p>Loring elit. In animi voluptas at consequuntur laborum nesciunt similique, veritatis dolore,
-                        asperiores, omnis esse. Explicabo eaque culpa nesciunt, perferendis odio cumque officiis
-                        facilis!Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et provident impedit,
-                        repellendus cumque velit dolores fugiat laudantium soluta. Eveniet, rerum deserunt. Mollitia
-                        voluptate a ipsum accusamus explicabo quo modi velit!</p>
-                </div>
-            </section>
-        </div>
-        <!-- <hr> -->
-        <div id="container3">
-            <section class="container3_3">
-                <h3>Contato</h3>
-                <div>
-                    <address>
-                        Desenvolvido por Joao Pedro Cabral dos Santos<br>
-                        Email: <a href="">cabral.santosjp@hotmail.com</a><br>
-                        GitHub: <a href="https://github.com/JpSCabral">JpSCabral</a>
-                    </address>
-                </div>
-        </div>
-    </main>
-    <!--inicio do footer-->
-    <footer>
 
+        <div class="container" id="cabecalho">
+            <nav>
+                <ul>
+                    <li><img id="logo" src="./img/coffee-logo-png-7521.png" alt=""></li>
+                    <a href="#secao1">
+                        <li>Home</li>
+                    </a>
+                    <a href="#secao2">
+                        <li>Produtos</li>
+                    </a>
+                    <a href="#secao3">
+                        <li>Sobre</li>
+                    </a>
+                    <a href=""><img id="icon" src="./img/person-circle.svg" alt=""></a>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="bg-cb">.
+            <div id="cont">
+                <h1>Bem Vindo(a) ao Coffee House</h1>
+                <h3>O lugar perfeito para os apaixonados em café</h3>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container" id="secao1">
+            <div id="secao1-cont">
+                <div id="sc1-txt">
+                    <div class="sec1-cont-text">
+                        <h2>Titulo 1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, maxime ipsa. Illum dolorem eum
+                            earum
+                            et repellat nesciunt enim velit? Veritatis, earum iure unde vero accusamus laboriosam dicta
+                            eius
+                            ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facere similique
+                            vero
+                            perspiciatis modi amet, iusto ratione expedita? Ratione assumenda rem impedit? Quasi eius
+                            natus hic
+                            fug
+                        </p>
+                    </div>
+                    <div class="sec1-cont-text">
+                        <h2>Titulo 2</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, maxime ipsa. Illum dolorem eum
+                            earum
+                            et repellat nesciunt enim velit? Veritatis, earum iure unde vero accusamus laboriosam dicta
+                            eius
+                            ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facere similique
+                            vero
+                            perspiciatis modi amet. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+                            obcaecati hic ratione ipsa modi tempore, natus iste? Vel numquam nesciunt quis praesentium
+                            eos, hic nihil eaque reiciendis perspiciatis, beatae quidem. Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Tempore, sit maiores corrupti magnam vitae beatae sint!
+                            Aperiam, odit porro possimus officia numquam error architecto. Reiciendis debitis
+                            praesentium incidunt labore officiis.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <figure id="sec1-img"><img src="./img/pexels-viktoria-alipatova-2074120.jpg" alt=""></figure>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container" id="secao2">
+            <div>
+                <div id="secao2-cont">
+                    <h2>Produtos</h2>
+                    <div id="sc2-pdt">
+                        <div class="iten"><img src="./img/pexels-ash-376464.jpg" alt="">
+                            <h4>titulo</h4>
+                            <p>(descriçao)</p>
+                            <button>Comprar</button>
+                        </div>
+                        <div class="iten"><img src="./img/pexels-daka-14577243.jpg" alt="">
+                            <h4>titulo</h4>
+                            <p>(descriçao)</p>
+                            <button>Comprar</button>
+                        </div>
+                        <div class="iten"><img src="./img/pexels-engin-akyurt-2478313.jpg" alt="">
+                            <h4>titulo</h4>
+                            <p>(descriçao)</p>
+                            <button>Comprar</button>
+                        </div>
+                        <div class="iten"><img src="./img/pexels-ivan-dražić-14613467.jpg" alt="">
+                            <h4>titulo</h4>
+                            <p>(descriçao)</p>
+                            <button>Comprar</button>
+                        </div>
+                        <div class="iten"><img src="./img/pexels-lisa-fotios-16180909.jpg" alt="">
+                            <h4>titulo</h4>
+                            <p>(descriçao)</p>
+                            <button>Comprar</button>
+                        </div>
+                        <div class="iten"><img src="./img/pexels-lisa-fotios-907142.jpg" alt="">
+                            <h4>titulo</h4>
+                            <p>(descriçao)</p>
+                            <button>Comprar</button>
+                        </div>
+                        <div class="iten"><img src="./img/pexels-pixabay-461382.jpg" alt="">
+                            <h4>titulo</h4>
+                            <p>(descriçao)</p>
+                            <button>Comprar</button>
+                        </div>
+                        <div class="iten"><img src="./img/pexels-quang-anh-ha-nguyen-885021.jpg" alt="">
+                            <h4>titulo</h4>
+                            <p>(descriçao)</p>
+                            <button>Comprar</button>
+                        </div>
+                        <div class="iten"><img src="./img/pexels-reneereneee-3993720.jpg" alt="">
+                            <h4>titulo</h4>
+                            <p>(descriçao)</p>
+                            <button>Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- <hr> -->
+        <div class="container" id="secao3">
+
+            <div id="ft-cont">
+                <h2>Sobre Nós</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero iste assumenda, rem possimus
+                    quaerat
+                    inventore animi officia repellat similique sunt est id voluptatum culpa illo dolorem odit.
+                    Sapiente,
+                    iusto optio.
+                    assumenda exercitationem enim!</p>
+            </div>
+            <div id="bg-ft"></div>
+
+    </main>
+    <footer id="rodape">
+        <div>
+            &copy; Desenvolvido por João Pedro Cabral dos Santos
+        </div>
     </footer>
 </body>
 
