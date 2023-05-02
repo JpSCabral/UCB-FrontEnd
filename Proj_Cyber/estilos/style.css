@@ -123,7 +123,7 @@ h2 {
 
 /* container3 */
 #container3 {
-    background-image: url(/imagens/pexels-aleksandar-pasaric-1820770.jpg);
+    background-image: url(../imagens/pexels-aleksandar-pasaric-1820770.jpg);
     background-position: center;
     height: 800px;
 }

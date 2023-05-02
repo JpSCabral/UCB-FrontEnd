@@ -1,0 +1,24 @@
+Seletor descendente > X (espaço) Y nivel 1
+    Qualquer elemento "Y" que seja descendente (dentro) de um outro elemento "X"
+    EX: <X> texto texto <Y>Texto alterado</Y> </X>
+
+
+Seletor Filho -> X > Y nivel 2
+    Qualque elemento Y que seja filho direto de um elemento X
+    EX: <ul>                ul > li
+            <li></li>
+        </ul>
+
+
+Seletor Irmao em Geral -> X ~ Y nivel 4
+    quando o seletor X é precedido por um elemento Y nao necessariamente de imediato
+    EX: h1 ~ p
+        <h1>texto</h1>
+        <span></span>
+        <p></p>
+
+
+Seletor Irmao Adjacente -> X + Y nivel 3
+    Corresponde se X e Y compartilham do mesmo seletor pai e se X precede imediatamente Y, 
+    seleciona todos os elementos Y colocados imediatamente apos os Xs
+    
