@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+.container{
+   
+}
+.card {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid;
+    width: 200px;
+
+}
+
+.card-info {
+    padding: 10px;
+}
+
+.card img {
+    height: 300px;
+}
